@@ -3,6 +3,32 @@ package in.ravikalla.utils;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 
+ * @author ravi_kalla
+ * 
+ * Utility to find sub sets in an array of numbers - each subset should have the sum equal to the user input sum.
+ * 
+ * Eg1:
+ * 	In an array {1,2,3,4,5,6,7,8,9}, we need to find the sub set of numbers whose sum is equal to 10.
+ * 	Valid subsets are :
+ * 	{1, 2, 3, 4}
+ * 	{1, 2, 7}
+ * 	{1, 3, 6}
+ * 	{1, 4, 5}
+ * 	{1, 9}
+ * 	{2, 3, 5}
+ * 	{2, 8}
+ * 	{3, 7}
+ * 	{4, 6}
+ * 
+ *  Eg2:
+ *  In an array {1,2,3,4,5,6,7,8,9}, we need to find the sub set of numbers whose sum is equal to 5.
+ * 	Valid subsets are :
+ * 	{1, 4}
+ * 	{2, 3}
+ * 	{5}
+ */
 public class FindNumsForSum {
 	private int[] arrNum;
 	private int intExpectedSum;
@@ -66,7 +92,7 @@ public class FindNumsForSum {
 	}
 
 	public static void main(String[] args) {
-		int[] arrNum = {1,2,3,4,5,6,7,8,9,0};
+		int[] arrNum = {1,2,3,4,5,6,7,8,9};
 		int intSum = 10;
 
 		FindNumsForSum objFindNumsForSum = new FindNumsForSum(arrNum, intSum);

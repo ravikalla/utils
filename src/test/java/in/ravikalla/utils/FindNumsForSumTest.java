@@ -33,7 +33,7 @@ public class FindNumsForSumTest extends TestCase {
 		List<Integer> lstExpected7 = Arrays.asList(3, 7);
 		List<Integer> lstExpected8 = Arrays.asList(4, 6);
 
-		int[] arrNum = {1,2,3,4,5,6,7,8,9,0};
+		int[] arrNum = {1,2,3,4,5,6,7,8,9};
 		int intSum = 10;
 
 		FindNumsForSum objFindNumsForSum = new FindNumsForSum(arrNum, intSum);
@@ -56,7 +56,7 @@ public class FindNumsForSumTest extends TestCase {
 		List<Integer> lstExpected1 = Arrays.asList(2, 3);
 		List<Integer> lstExpected2 = Arrays.asList(5);
 
-		int[] arrNum = {1,2,3,4,5,6,7,8,9,0};
+		int[] arrNum = {1,2,3,4,5,6,7,8,9};
 		int intSum = 5;
 
 		FindNumsForSum objFindNumsForSum = new FindNumsForSum(arrNum, intSum);
