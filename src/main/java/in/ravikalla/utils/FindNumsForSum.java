@@ -33,7 +33,7 @@ public class FindNumsForSum {
 	private int[] arrNum;
 	private int intExpectedSum;
 
-	List<List<Integer>> lstResult;
+	private List<List<Integer>> lstResult;
 
 	public FindNumsForSum(int[] arrNum, int intExpectedSum) {
 		this.arrNum = arrNum;
